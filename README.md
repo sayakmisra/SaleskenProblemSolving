@@ -9,7 +9,7 @@ Question : Write an algorithm or a group of algorithms to match the misspelt cit
 
 For example : Correct Data -> (Bangalore, India, 101) and say for "Bangalore" the misspelt name is (Banhakorg, India). Then the matching algorithm should return 101 for this example.
 
-** Solution: Here we have used Levenshtein distance to find the most simmilar word from each missplelt word. **
+**Solution: Here we have used Levenshtein distance to find the most simmilar word from each missplelt word.**
 
 -----------------------------------------------------------------------------------------
 
@@ -33,5 +33,5 @@ For example : Say there are 4 sentences as an input list -
 
 Output : [["Football is played in Brazil" , "Cricket is played in India"], ["Traveling is good for health", "People love traveling in winter"]]
 
-** Solution:  Here we are using word-embeddings from pretrained word2vec models. Since the dataset is very small, other NLP encoding technique  like: bag of words, TF-IDF or creating a word2vec model from this dataset, will not yeild good results. 
-We have to download the [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) for referencing the word-embeddings.**
+**Solution:  Here we are using word-embeddings from pretrained word2vec models. Since the dataset is very small, other NLP encoding** **technique  like: bag of words, TF-IDF or creating a word2vec model from this dataset, will not yeild good results.** 
+**We have to download the [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) for referencing the word-embeddings.**
